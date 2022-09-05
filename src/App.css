@@ -38,7 +38,7 @@
 }
 
 .input-container {
-  padding: 2rem;
+  padding: 1rem;
   /* padding-bottom: 10rem; */
   display: flex;
   flex-direction: column;
@@ -54,8 +54,16 @@
 }
 
 .input-container button {
-  width: 30%;
   margin: auto;
+  width: fit-content;
   font-size: 1.25rem;
   border: 1px solid rgb(20, 168, 217);
+}
+
+.output-container {
+  width:50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 2px solid rgb(13, 152, 183);
+  border-radius: 1rem;
 }
